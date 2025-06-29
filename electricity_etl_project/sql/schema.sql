@@ -1,0 +1,16 @@
+CREATE_TABLE electricity_bills(
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    num_rooms INT,
+    num_people INT,
+    housearea FLOAT,
+    is_ac BIT,
+    is_tv BIT,
+    is_flat BIT,
+    ave_monthly_income FLOAt,
+    num_children INT,
+    is_urban BIT,
+    amount_paid FLOAT,
+    bill_per_person FLOAT,
+    bil_per_sqft FLOAT,
+    room_density FLOAT,
+);
